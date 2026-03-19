@@ -179,8 +179,7 @@ Provide your analysis as the specified JSON format. Remember: explain for non-te
     model,
     system: systemPrompt,
     prompt: userPrompt,
-    maxTokens: 16384,
-    //maxOutputTokens: 16384, // Large contracts butuh lebih banyak token untuk full JSON output
+    maxOutputTokens: 16384, // ai@6: renamed dari maxTokens. Large contracts butuh ini agar JSON tidak terpotong
     temperature: 0.1, // Low temp for consistent analysis
   });
 

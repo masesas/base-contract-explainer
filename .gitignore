@@ -1,6 +1,7 @@
 
-# Dolt database files (added by bd init)
+# Dolt / Beads issue tracking (local only)
 .dolt/
+.beads/
 *.db
 
 # dependencies
