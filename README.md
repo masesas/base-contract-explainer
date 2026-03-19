@@ -6,6 +6,9 @@ Paste any verified Base contract address and get plain-language explanations of 
 
 ---
 
+## Demo
+https://base-contract-explainer.vercel.app/
+
 ## Features
 
 - **Multi-AI Provider** — Switch between Anthropic Claude, OpenAI GPT-4o, and Google Gemini
